@@ -1,24 +1,137 @@
 {
-  "last_updated": "2026-06-24T19:43:12.932704+00:00",
+  "last_updated": "2026-06-25T08:57:41.135766+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 4,
-      "total_workflow_runs": 41,
-      "total_success": 36,
-      "total_failure": 5,
-      "success_rate": 87.8
+      "runs_with_data": 5,
+      "total_workflow_runs": 51,
+      "total_success": 45,
+      "total_failure": 6,
+      "success_rate": 88.2
     },
     "last_30_days": {
-      "days": 10,
-      "runs_with_data": 4,
-      "total_workflow_runs": 41,
-      "total_success": 36,
-      "total_failure": 5,
-      "success_rate": 87.8
+      "days": 11,
+      "runs_with_data": 5,
+      "total_workflow_runs": 51,
+      "total_success": 45,
+      "total_failure": 6,
+      "success_rate": 88.2
     }
   },
   "history": [
+    {
+      "date": "2026-06-25",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/coder-jayp/rl/actions/runs/28158704152",
+      "orchestrator_run_id": 28158704152,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393537021",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393536306",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393536415",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393535526",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393535522",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393536544",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393535586",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393535633",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393535483",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393535532",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393535529",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393536307",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393535794",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/coder-jayp/rl/actions/runs/28158704152/job/83393739237",
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 16,
+        "success": 9,
+        "failure": 1,
+        "skipped": 6,
+        "other": 0,
+        "success_rate": 90.0
+      }
+    },
     {
       "date": "2026-06-24",
       "orchestrator_ran": true,
