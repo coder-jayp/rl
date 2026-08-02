@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T08:17:42.826058+00:00",
+  "last_updated": "2026-08-02T19:04:39.698422+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-08-02",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/coder-jayp/rl/actions/runs/30739452646",
       "orchestrator_run_id": 30739452646,
       "workflows": {
